@@ -1,0 +1,19 @@
+This file contains the project’s copypastable boilerplate comment headers.
+
+Boilerplate for C-like languages:
+
+/****************************************************************************\
+ *                                  Syndi™                                  *
+ *                                                                          *
+ *                         Copyright © 2021 Aquefir                         *
+ *                 Released under Artisan Software Licence.                 *
+\****************************************************************************/
+
+Hash-based boilerplate (Python, POSIX shell, Makefile):
+
+##############################################################################
+##                                  Syndi™                                  ##
+##                                                                          ##
+##                         Copyright © 2021 Aquefir                         ##
+##                 Released under Artisan Software Licence.                 ##
+##############################################################################
