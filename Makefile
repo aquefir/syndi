@@ -21,12 +21,12 @@ AFILE   :=
 
 # space-separated path list for #includes
 # <system> includes
-INCLUDES := $(TROOT)/include/glib-2.0 $(TROOT)/lib/glib-2.0/include
+INCLUDES :=
 # "local" includes
 INCLUDEL := src
 
 # space-separated library name list
-LIBS    := glib-2.0
+LIBS    := uni_log uni_err uni_himem uni_str
 LIBDIRS :=
 
 # ‘3P’ are in-tree 3rd-party dependencies
@@ -40,13 +40,14 @@ FWORKS :=
 
 # sources
 SFILES    :=
-CFILES    :=
+CFILES    := \
+	src/ircmsg.c \
+	src/main.c
 CPPFILES  :=
 PUBHFILES :=
 PRVHFILES := \
 	src/common.h \
-	src/ircmsg.h \
-	src/nwsock.h
+	src/ircmsg.h
 
 # test suite sources
 TES_CFILES    :=
