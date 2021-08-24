@@ -8,15 +8,8 @@
 #ifndef INC__SYNDI_IRCMSG_H
 #define INC__SYNDI_IRCMSG_H
 
-/**
- * IRC MESSAGE MODULE
- * Structures and functions for parsing and stringifying IRC message bodies
- *
- * This module provides a higher-level message struct for use in construing
- * message data. The functions that use it can gracefully handle character
- * set encoding and metadata paired with a message.
- */
+#include <uni/types/int.h>
 
-struct syndi_ircmsg;
+void syndi_privmsg_make( char *, char *, char *, ptri * );
 
 #endif /* INC__SYNDI_IRCMSG_H */
