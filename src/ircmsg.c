@@ -31,8 +31,7 @@ void syndi_privmsg_make( char * chan, char * text, char * out, ptri * out_sz )
 
 		uni_memset( buf, 0, buf_sz );
 
-		/* no C99, so the bounds are ensured in the calculations above
-		 */
+		/* no C99, so the bounds are ensured in the calcs above */
 		sprintf( FMT, chan, text );
 
 		if( out != NULL )
